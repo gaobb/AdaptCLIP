@@ -14,10 +14,10 @@ Universal visual anomaly detection aims to identify anomalies from novel or unse
 - Comparative learning should incorporate contextual and aligned residual features rather than relying solely on residual features.
 
 ## ToDo List
-- [x] release pre-trained AdaptCLIP models
-- [x] deploy online AdaptCLIP Demo on HuggingFace
-- [x] open testing code
-- [x] open training code
+- [ ] release pre-trained AdaptCLIP models
+- [ ] deploy online AdaptCLIP Demo on [HuggingFace Space](https://huggingface.co/spaces/csgaobb/AdaptCLIP)
+- [ ] open testing code
+- [ ] open training code
 
 
 
