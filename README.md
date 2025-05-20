@@ -38,7 +38,7 @@ Universal visual anomaly detection aims to identify anomalies from novel or unse
 | 7   | **AdaptCLIP**    | 1     | ✓     | ✓     | ✓           | 94.2 / 52.5   | 92.0 / 38.8  |
 
 ## Complexity and Efficiency Comparisons
-| Shots | Methods              | CLIP Models         | Input Size    | # Params (M)       | Inf. Time (ms) |
+| Shots | Methods              | CLIP Models         | Input Size    | # F+L Params (M)      | Inf. Time (ms) |
 |-------|----------------------|---------------------|---------------|--------------------|----------------|
 | 0     | WinCLIP [16]         | ViT-B-16+240        | 240×240       | 208.4 + 0.0        | 201.3          |
 | 0     | WinCLIP [16]         | ViT-B-16+240        | 512×512       | 208.4 + 0.0        | 3912.6         |
@@ -53,6 +53,7 @@ Universal visual anomaly detection aims to identify anomalies from novel or unse
 | 1     | **AdaptCLIP**            | ViT-B-16+240        | 512×512       | 208.4 + 1.4        | 54.0           |
 | 1     | **AdaptCLIP**            | ViT-L/14@336px      | 518×518       | 427.9 + 1.8        | 168.2          |
 
+Note: F means Frozen Parameters (M) and L means Learnable Parameters (M)
 
 ## ToDo List
 - [ ] release pre-trained AdaptCLIP models
