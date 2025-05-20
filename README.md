@@ -37,6 +37,9 @@ Universal visual anomaly detection aims to identify anomalies from novel or unse
 | 6   | **w context**    | 1     | ✗     | ✗     | ✓           | 88.1 / 50.2   | 88.9 / 38.1  |
 | 7   | **AdaptCLIP**    | 1     | ✓     | ✓     | ✓           | 94.2 / 52.5   | 92.0 / 38.8  |
 
+Note:  Following previous works, we use AUROC for image-level anomaly classification and AUPR for pixel-level anomaly segmentation in our main paper.
+Here, we emphasize that AUPR is better for anomaly segmentation, where the imbalance issue is very extreme between normal and anomaly pixels, as pointed out in [VisA paper (ECCV 2022)](https://arxiv.org/pdf/2207.14315).  In Appendix, we also provide detailed comparisons using all metrics, including AUROC, AUPR, and F1max.
+
 ## Complexity and Efficiency Comparisons
 | Shots | Methods              | CLIP Models         | Input Size    | # F+L Params (M)      | Inf. Time (ms) |
 |-------|----------------------|---------------------|---------------|--------------------|----------------|
