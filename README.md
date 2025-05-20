@@ -19,7 +19,7 @@ Universal visual anomaly detection aims to identify anomalies from novel or unse
 
 <div style="display: flex; justify-content: space-between;">
   <img src="https://arxiv.org/html/2505.09926v2/extracted/6447805/figures/AdaptCLIP-PSCode.png" alt="Image 1" style="width: 40%;"  />
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <!-- 插入 6 个空格 -->
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <!-- 插入 6 个空格 -->
   <img src="https://arxiv.org/html/2505.09926v2/x1.png" alt="Image 2" style="width: 50%;"  />
 </div>
 
