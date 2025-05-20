@@ -8,7 +8,7 @@
 
 
 ## Introduction 
-Universal visual anomaly detection aims to identify anomalies from novel or unseen vision domains without additional fine-tuning, which is critical in open scenarios. 
+Universal visual anomaly detection aims to identify anomalies from novel or unseen vision domains without additional fine-tuning, which is critical in open scenarios. To this end, we present a **simple yet effective AdaptCLIP** based on **two key insights**:
 
 - Adaptive visual and textual representations should be learned alternately rather than jointly.
 - Comparative learning should incorporate contextual and aligned residual features rather than relying solely on residual features.
