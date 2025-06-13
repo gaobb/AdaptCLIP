@@ -64,8 +64,9 @@ Note: F means Frozen Parameters (M) and L means Learnable Parameters (M)
 - [ ] open testing code
 - [ ] open training code
 
+
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=gaobb/gaobb,https:/,gaobb/AdaptCLIP&type=Timeline)](https://www.star-history.com/#gaobb/gaobb&https:/&gaobb/AdaptCLIP&Timeline)
+[![Star History Chart](https://api.star-history.com/svg?repos=gaobb/AdaptCLIP&type=Timeline)](https://www.star-history.com/#gaobb/AdaptCLIP&Timeline)
 
 
