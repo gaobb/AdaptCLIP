@@ -1,0 +1,17 @@
+__pycache__/
+.ipynb_checkpoints/
+*.py[cod]
+*$py.class
+.vscode/
+*.vscode
+*.png
+*.txt
+*.pth
+*.jpg
+checkpoints/
+adaclip_checkpoints/
+workspace/
+text_json/
+taiji/
+pointad/
+*.pyc
