@@ -44,13 +44,13 @@ Please refer to [AnomalyCLIP](https://github.com/zqhang/AnomalyCLIP) for more de
   python dataset/mvtec.py # for MVTec
   python dataset/visa.py  # for VisA
 ```
-- Testing using pre-trained AdaptCLIP models
+- Test
 Please download pre-train AdaptCLIP models from [huggingface](https://huggingface.co/csgaobb/AdaptCLIP) to `./adaptclip_checkpoints`, and then run the following command:
 ```bash
 bash scripts/test_adaptclip.sh
 ```
 
-- Training AdaptCLIP
+- Train
 ```bash
 bash scripts/train_adaptclip.sh
 ```
