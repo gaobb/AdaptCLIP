@@ -6,7 +6,7 @@
 > Official PyTorch Implementation of [AdaptCLIP: Adapting CLIP for Universal Visual Anomaly Detection](https://www.arxiv.org/pdf/2505.09926), 2025.
 
 # News 🎉
-- [2025-12-15] AdaptCLIP achieves **88.1%** I-AUROC, **93.0%** P-AUROC, and **52.5%** P-AUPR using only 4 training-free normal samples on the large-scale [Real-IAD Variety](https://arxiv.org/pdf/2511.00540), surpassing the state-of-the-art multi-class AD model ([Dinomaly](https://github.com/guojiajeremy/Dinomaly): 81.4% I-AUROC, 91.5% P-AUROC, and 37.6% P-AUPR) that utilizes full normal training images. 
+- [2025-12-15] AdaptCLIP achieves **88.1%** I-AUROC, **93.0%** P-AUROC, and **52.5%** P-AUPR using only 4 training-free normal samples on the large-scale [Real-IAD Variety](https://arxiv.org/pdf/2511.00540), surpassing the state-of-the-art multi-class AD model ([Dinomaly](https://github.com/guojiajeremy/Dinomaly): 85.4% I-AUROC, 91.5% P-AUROC, and 42.8% P-AUPR) that utilizes full normal training images. 
 
 Note: The 1-shot and 2-shot AdaptCLIP results we reported in [Real-IAD-Variety paper](https://arxiv.org/pdf/2511.00540) are lower than the results below, due to our incorrect setting (**pq_context=False**). We will update the new results in the next version with **pq_context=True**.
 
@@ -17,7 +17,7 @@ Note: The 1-shot and 2-shot AdaptCLIP results we reported in [Real-IAD-Variety p
 | AdaptCLIP      | 1    | 84.3 ± 0.1    | 92.5 ± 0.1 | 48.9 ± 0.4  |
 | AdaptCLIP      | 2    | 86.4 ± 0.1    | 92.8 ± 0.0 | 50.8 ± 0.1  |
 | AdaptCLIP      | 4    | **88.1 ± 0.1**    | **93.0 ± 0.0** | **52.5 ± 0.2**  |
-| Dinomaly       | full | 81.4          | 91.5       | 37.6        |
+| Dinomaly       | full | 85.4          | 91.5       | 42.8        |
 
 ## Introduction 
 Universal visual anomaly detection aims to identify anomalies from novel or unseen vision domains without additional fine-tuning, which is critical in open scenarios. To this end, we present a **simple yet effective AdaptCLIP** based on **two key insights**:
